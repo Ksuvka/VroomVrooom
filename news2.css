@@ -1,0 +1,59 @@
+.wrapper2 {
+    
+    width: 450px;
+    height: 250px;
+  margin-bottom: 5px;
+
+    
+  }
+  .exmpl2 {
+    margin-top: 3px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .exmpl2 img {
+    height: 100%;
+    width: auto;
+    flex-shrink: 0;
+  }
+
+  .text2{
+    display: flex;
+    text-align: justify;
+    float: right;
+    font-size: 15px;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 10px;
+    max-width:1000px; 
+    word-wrap:break-word;
+    border:3px #2d2d2d  solid; 
+    padding: 5px 5px 5px 8px;
+    box-shadow: 5px 5px 8px rgb(81, 79, 79);
+    border-radius: 5px;
+    
+    
+  }
+
+
+  
+
+  .maindiv{
+    position: absolute;
+    width: 60vw; /* Ширина */
+    height: 90vh;  /* Высота */
+    background: url(../img/businessman.png);  /* Фоновая картинка */
+    background-size: cover;
+    background-position: right; 
+    color: black; 
+    text-align: left; 
+    padding-top: 0px;  /* Отступ сверху */
+    padding-right: 0px;
+    right:0px;
+    z-index: 1;
+    background-repeat: no-repeat;}
+
+
+  

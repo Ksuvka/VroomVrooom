@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+     background-color: #8aa8c8;
+    
+}
+
+.cont{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+
+
+.first{
+    margin-top: 0;
+    width: 100px;
+    font-family: 'Oswald';
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.second{
+    width: 350px;
+    height: 760px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.zak{
+    font-family: 'Oswald';
+    font-size: 26px;
+    color:#E6855F ; 
+    font-weight: 600;
+    width: 350px;
+
+}
+
+.data{
+    font-family: 'Oswald';
+    font-size: 16px;
+    color:#000000 ; 
+    font-weight: 400;
+ 
+}
+
+.wrapper {
+    
+    width: 350px;
+    height: 250px;
+
+    
+  }
+  .exmpl {
+    margin-top: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .exmpl img {
+    height: 100%;
+    width: auto;
+    flex-shrink: 0;
+  }
+
+  .text{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+
+    margin-left: 0px;
+    max-width:350px; 
+    word-wrap:break-word;
+    
+    padding: 5px 5px 5px 0px;
+
+
+
+  }
+  .text2{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 0px;
+    max-width:350px; 
+    word-wrap:break-word;
+    
+    padding: 5px 5px 5px 0px;
+
+
+  }
+
+
+  @media (max-width:1950px) {
+    .cont{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      }
+      
+      
+      .first{
+          margin-top: 0;
+          width: 100px;
+          font-family: 'Oswald';
+          font-size: 26px;
+          font-weight: 400;
+          display: flex;
+          flex-direction: row;
+          text-align: left;
+      }
+      
+      .second{
+          width: 320px;
+          height: 900px;
+      }
+      
+      .zak{
+          font-family: 'Oswald';
+          font-size: 22px;
+          color:#E6855F ; 
+          font-weight: 600;
+          width: 300px;
+      
+      }
+      
+      .data{
+          font-family: 'Oswald';
+          font-size: 16px;
+          color:#000000 ; 
+          font-weight: 400;
+       
+      }
+      
+      .wrapper {
+          
+          width: 320px;
+          height: 250px;
+      
+          
+        }
+        .exmpl {
+          margin-top: 5px;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 0px;
+        }
+        .exmpl img {
+          height: 100%;
+          width: auto;
+          flex-shrink: 0;
+        }
+      
+        .text{
+          text-align: left;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 15px;
+          font-family: 'Rubik', sans-serif;
+          font-weight: 500;
+      
+          margin-left: 0px;
+          max-width:350px; 
+          word-wrap:break-word;
+          
+          padding: 5px 5px 5px 0px;
+      
+      
+      
+        }
+        .text2{
+          text-align: justify;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 13px;
+          font-family: 'Exo 2', sans-serif;
+          margin-left: 0px;
+          max-width:350px; 
+          word-wrap:break-word;
+          
+          padding: 5px 5px 5px 0px;}}
+
+
+
+          /*СЛАЙДЕР*/
+          .block{
+   
+            position: absolute;
+            margin: 0 0;
+            bottom: 0px;
+            padding: 10px 0px 20px 30px;
+            width: 70%;
+            z-index: 300;
+            text-align: left;
+            border-radius: 20px 20px 0 0;
+            background-color: rgba(0, 0, 0, 0.599);
+        }
+        
+        .news{
+          text-align: left;
+          font-family: 'Oswald';
+          font-size: 70px;
+          color: rgb(255, 255, 255);
+            word-wrap:break-word;
+          font-weight: 800;
+            
+        
+        }
+        
+        .osnt{
+            font-size: 20px;
+            font-weight: 400;
+        }

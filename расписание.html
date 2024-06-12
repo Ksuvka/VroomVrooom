@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт по макету</title>
+    <link rel="stylesheet" href="расписание.css">
+    <link rel="stylesheet" href="reg popup.css">
+</head>
+
+<body>
+
+    <nav>
+        <div id="nav_bar">
+        <ul class="topmenu" id="topmenu">
+      
+          <li><a href="главная.html">Главная</a></li>
+          <li><a href="расписание.html" class="active-page">Расписание</a></li>
+          <li><a href="Правила.html">Правила</a></li>
+         <li><a href="" class="dropdown"> <button class="dropbtn">Виды
+          <i class="fa fa-caret-down"></i></button>
+          <ul class="submenu">
+            <div class="dropdown-content">
+              <li><a href="машины.html">Автомобили</a></li>
+              <li><a href="виды-мото.html">Мотоциклы</a></li>
+            </ul>
+          
+          </li>
+          <li><a href="характеристики.html">Характеристики</a> </li>
+          
+          <li >
+            <div class="button" style="color: rgb(255, 255, 255);">
+        <a href="#" id="open_pop_up"> Регистрация</a>
+          </div> 
+          
+          <div class="pop_up" id="pop_up">
+            <div class="pop_up_cont" id="formContainer">
+                
+                
+               <div class="pop_up_body active" id="registerForm">
+                <h2>Оформить подписку</h2>
+                <form  action="#" id="register" name="register">
+                    <input type="text" placeholder="Введите ваше имя" name="name" required><br>
+                    <input type="text" placeholder="Введите ваш email" name="email" required><br>
+                    <button id="btn2" type="submit">Подписаться</button>
+                </form>
+                <div id="successMessage" class="hidden">Подписка оформлена!</div>
+                
+    
+                <div class="close_pop_up_2" id="close_pop_up_2">
+                    &#10006
+                </div>
+    
+                </div>
+
+                <div class="pop_up_body"  id="loginForm">
+                <h2>Вход</h2>
+                <form action="#">
+                    <input type="text" placeholder="Введите ваш email" required><br>
+                    <input type="password" placeholder="Введите пароль" required><br>
+                    <button id="btn2" type="submit">Войти</button>
+                </form>
+                <p>Нет аккаунта? <a href="#" onclick="showForm('registerForm')">Зарегистрируйтесь</a></p>
+    
+                <div class="close_pop_up" id="close_pop_up">
+                    &#10006
+                </div>
+               </div>
+
+            </div>
+        </div>
+
+        </li>
+        
+        </ul> 
+        </div>
+      </div>
+      
+      </nav>
+
+      <script src="reg pop up.js"></script>
+      
+     
+
+    <table>
+        <tr>
+            <td>
+               <div class="textSwap">
+                <span style="display: block; transform: rotate(-90deg); white-space: nowrap; font-size: 120px; font-weight: bold; color: #7689bf; text-shadow: 3px 3px 8px #000000;">
+                AVTO
+              </span>
+            </div>
+            </td>
+    <td>
+    <div class="schedule">
+        <h2>РАСПИСАНИЕ <span>СЕЗОН 2024</span></h2>
+        <div class="competition">
+            <div>
+                <h3>
+                <strong>RDS (Russian Drift Series)</strong></h3><br>
+                Нижний Новогород (NRING)<br>
+                25-26 мая<br>
+                Санкт-Птербург (IGORA DRIVE)<br>
+                22-23 июня<br>
+                Москва (ADM RACEWAY)<br>
+                13-14 июля<br><br><br><br><br><br>
+                <center>
+                    <a href="https://tickets.vdrifte.ru/rdsgp-2024" class="btn">купить билеты</a>
+                    </center>
+            </div>
+            <div> 
+                <h3>
+                <strong>RallyX Igora Drive</strong></h3><br>
+                Санкт-Петербург (IGORA DRIVE)<br>
+                Первый этап<br>
+                2 июня<br>
+                Второй этап<br>
+                4 августа<br>
+                Третий этап<br>
+                15 сентября<br><br><br><br><br>
+                <center>
+                <a href="https://drive-igora.ru/events/rx-igora-drive/?ysclid=lx1t8gw3w1101723463" class="btn">купить билеты</a>
+                </center>
+            </div>
+            <div>
+                <h3>
+                <strong>SMP RACING</strong></h3><br>
+                 КазаньРинг Каньон<br>
+                21-22 июня<br>
+                ADM RACEWAY<br>
+                20-21 июля<br>
+                IGORA DRIVE<br>
+                23-24 августа<br>
+                MOSCOW RACEWAY<br>
+                14-15 сентября<br>
+               Крепость Грозная<br>
+               04-05 октября<br><br>
+
+                <center>
+                    <a href="http://touring.raf-rcrs.ru/?ysclid=lx1sz9cpzd793415006" class="btn">купить билеты</a>
+                    </center>
+            </div>
+        </div>
+    </div>
+    </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="textSwap">
+                    <span style="display: block; transform: rotate(-90deg); white-space: nowrap; font-size: 120px; font-weight: bold; color: #000000; text-shadow: 3px 3px 8px #7689bf; margin-bottom: 3px;">
+                    MOTO 
+                  </span>
+                </div>
+            </td>
+            <td>   
+            <div class="schedule">
+                <h2>РАСПИСАНИЕ <span>СЕЗОН 2024</span></h2>
+                <div class="competition">
+                    <div>
+                        <h3>
+                        <strong>MOTORING</strong></h3><br>
+                        Москва (MOSCOW RACEWAY)<br>
+                        14-16 июня<br>
+                        Санкт-Петербург (IGORA DRIVE)<br>
+                        28-30 июня<br>
+                        Москва (MOSCOW RACEWAY)<br>
+                        12-14 июля<br>
+                        Москва (MOSCOW RACEWAY)<br>
+                        2-4 августа<br>
+                        Санкт-Петербург (IGORA DRIVE)<br>
+                        16-18 августа<br>
+                        Москва (MOSCOW RACEWAY)<br>
+                        30 августа - 1 сентября<br><br>
+
+                        <center>
+                            <a href="https://motoring.ru/#" class="btn">купить билеты</a>
+                            </center>
+                    </div>
+                    <div>
+                        <h3>
+                        <strong>Lemarc 2024</strong></h3><br>
+                        1 этап (MOSCOW RACEWAY)<br>
+                        Москва<br>
+                        1-2 июня<br>
+                        2 этап (IGORA DRIVE)<br>
+                        Санкт-Петербург<br>
+                        27-28 июля<br><br><br><br><br><br><br><br>
+                        <center>
+                            <a href="" class="btn">ВХОД СВОБОДНЫЙ</a>
+                            </center>
+                    </div>
+                    <div>
+                        <h3>
+                        <strong>МОТО ДРАЙВ</strong></h3><br>
+                        Санкт-Петербург<br>
+                        (IGORA DRIVE)<br>
+                        29 июня<br>
+                        30 июня<br><br><br><br><br><br><br><br><br><br>
+                          <center>
+                            <a href="https://drive-igora.ru/events/moto-drive/?utm_source=yandex&utm_medium=cpc&utm_campaign=sl_rosgonki_igora_paid-search_search_general_moto-drive_1_2024_spb&utm_content=109895881_16205756212_5454605373_desktop_syn_none_Санкт-Петербург_2_02810-0001_keywords&utm_term=мото%20мероприятия&erid=![erir0]&yclid=13844959308223873023#tickets" class="btn">купить билеты</a>
+                            </center>
+                    </div>
+                </div>
+            </div>
+            </td>
+        </tr>
+
+</body>
+
+</html>

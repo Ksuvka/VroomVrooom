@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #8aa8c8;
+    z-index: 1;
+}
+
+
+
+.maingrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-rows: repeat(1,630px);*/
+    gap: 30px;
+}
+.fff{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+h1{
+    font-size: 65px;
+    font-family: 'Oswald';
+    font-weight: 400;
+   color: rgb(254, 254, 254);
+}
+
+.h2{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    color: #ffffff;
+    
+}
+
+.card-title{
+    font-size: 30px;
+    color: #E6855F;
+    font-family: 'Oswald';
+    font-weight: 600;
+
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.mini-title{
+    font-size: 32px;
+    color: #711f0d;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+
+
+.card-body{
+    max-height: 30rem;
+}
+
+
+.card{
+    width: 20rem;
+    height: 40rem;
+    z-index: 1;
+}
+
+.foto {
+    
+    width: 100%;
+    height: 500px;
+  
+  }
+  .exmpl {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .exmpl img {
+    height: 90%;
+    width: auto;
+    flex-shrink: 0;
+}
