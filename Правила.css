@@ -10,7 +10,7 @@ body {
 * {box-sizing: border-box;}
 
 .footer { 
-  background-color: #7689bf; 
+  background-color: #ffffff; 
   padding: 10px; 
   display: flex; 
   justify-content: space-between; 
